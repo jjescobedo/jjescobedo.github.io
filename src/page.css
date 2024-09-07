@@ -1,0 +1,40 @@
+.page-container {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.graduate-profile-container {
+    padding-bottom: 50px;
+}
+
+.banner {
+    background-image: url('/home_banner.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.content-container-1 {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.content-container-1 {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.App-link {
+    color: #61dafb;
+  }

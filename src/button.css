@@ -1,0 +1,33 @@
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .button-item {
+    text-align: center;
+  }
+  
+  .button-image {
+    max-height: 140px;
+    max-width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .button-container > .button-item:nth-child(7) {
+    grid-column: span 3;
+    justify-self: center;
+  }
+  
+  .button-item p {
+    font-size: 28px; 
+  }
+  
+  .button-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
