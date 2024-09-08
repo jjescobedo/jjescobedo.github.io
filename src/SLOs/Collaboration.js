@@ -10,9 +10,9 @@ function Collaboration() {
         <hr/>
       </div>
       <div>
-        <div className="content-container-1">
+        <div className="slo-content-container">
         <iframe src="https://mri-scans-2b5e6.web.app/" title="Web App" width="600" height="400" className="left-slo-iframe"iframe/>
-          <div className="text-container">
+          <div className="slo-text-container">
             <h3 className="page-header-left-3">Summer Program, Senior Year</h3>
             <div className="text-box">
               <h4 className="page-header-left-4">AI Scholars Culminating Project</h4>

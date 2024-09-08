@@ -10,9 +10,9 @@ function WrittenCommunication() {
         <hr/>
       </div>
       <div>
-        <div className="content-container-1">
+        <div className="slo-content-container">
         <embed src="/ai4genes-schizophrenia-report.pdf" type="application/pdf" width="600" height="600" className="left-slo-pdf-1"/>
-          <div className="text-container">
+          <div className="slo-text-container">
             <h3 className="page-header-left-3">Extracurricular, Junior Year</h3>
             <div className="text-box">
               <h4 className="page-header-left-4">ai4genes at UC Davis</h4>

@@ -10,9 +10,9 @@ function LearningMindset() {
         <hr/>
       </div>
       <div>
-        <div className="content-container-1">
+        <div className="slo-content-container">
           <img src="/lu-logo.png" alt="Artifact 1" className="left-slo-image"/>
-          <div className="text-container">
+          <div className="slo-text-container">
             <h3 className="page-header-left-3">Latinos Unidos, Sophomore Year</h3>
             <div className="text-box">
               <h4 className="page-header-left-4">Running the Club</h4>

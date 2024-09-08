@@ -10,9 +10,9 @@ function Professionalism() {
         <hr/>
       </div>
       <div>
-        <div className="content-container-1">
+        <div className="slo-content-container">
         <embed src="/portmoto-snippet.pdf" type="application/pdf" width="600" height="600" className="left-slo-pdf-2"/>
-          <div className="text-container">
+          <div className="slo-text-container">
             <h3 className="page-header-left-3">Internship, Sophomore Year</h3>
             <div className="text-box">
               <h4 className="page-header-left-4">Portmoto</h4>
