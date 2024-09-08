@@ -1,0 +1,30 @@
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.starting-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeOut 3s forwards; 
+    z-index: 9999;
+}
+
+.starting-screen img {
+    max-width: 300px;
+    max-height: auto;
+    margin: -20px;
+}
+
+.starting-screen-header {
+    font-size: 54px;
+    margin-top: 40px;
+}

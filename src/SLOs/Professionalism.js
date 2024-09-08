@@ -1,8 +1,10 @@
 import React from 'react';
+import useSaveLastPage from '../useSaveLastPage';
 import '../content.css';
 import '../page.css';
 
 function Professionalism() {
+  useSaveLastPage();
   return (
     <div>
       <div>

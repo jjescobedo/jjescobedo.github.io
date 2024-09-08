@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useSaveLastPage from './useSaveLastPage';
 import './content.css';
 import './page.css';
 import './button.css';
 
 function GraduateProfile() {
+  useSaveLastPage();
   return (
     <div className="graduate-profile-container">
-      <h1 className="page-header-left-1">Graduate Profile</h1>
-      <hr></hr>
       <div className="button-container">
         <div className="button-item">
           <p>Curricular Literacy</p>

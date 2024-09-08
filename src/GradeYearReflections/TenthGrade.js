@@ -1,8 +1,10 @@
 import React from 'react';
+import useSaveLastPage from '../useSaveLastPage';
 import '../content.css';
 import '../page.css';
 
 function TenthGrade() {
+  useSaveLastPage();
   return (
     <div>
       <div>
