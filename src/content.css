@@ -9,7 +9,7 @@
 .home-page-header-2 {
     font-size: 34px;
     text-align: left;
-    padding-left: 24px;
+    padding-left: 20px;
     margin-top: 10px;
 }
   
@@ -58,31 +58,33 @@
 .body-text-left {
     font-size: 18px;
     margin-top: -10px;
-    margin-inline-start: 24px;
-    margin-inline-end: 24px;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
     line-height: 26px;
     margin-bottom: 32px;
 }
-  
+
+/*
 .body-text-left-half {
     font-size: 18px;
     margin-top: -10px;
-    margin-inline-start: 24px;
-    margin-inline-end: 520px;
+    margin-inline-start: 20px;
     line-height: 26px;
     margin-bottom: 32px;
 }
+*/
   
 .body-text-right {
     font-size: 18px;
     text-align: right;
     margin-top: -10px;
-    margin-inline-start: 24px;
-    margin-inline-end: 24px;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
     line-height: 26px;
     margin-bottom: 32px;
 }
   
+/*
 .body-text-right-half {
     font-size: 18px;
     text-align: right;
@@ -92,19 +94,11 @@
     line-height: 26px;
     margin-bottom: 32px;
 }
-
-.text-container {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
+*/
   
-.text-box {
-    margin-bottom: 10px;
-}
-
-.left-image {
-    max-width: 150px;
+.home-image img {
+    max-width: 500px;
     height: auto;
-    margin-right: 20px;
-  }
+    margin: 20px;
+    margin-top: 40px;
+}

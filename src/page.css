@@ -23,16 +23,34 @@
     margin-top: 20px;
 }
 */
-.content-container-1 {
+.slo-content-container{
     display: flex;
     align-items: flex-start;
     padding: 20px;
 }
 
-.content-container-1 {
+.slo-text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.home-content-container {
     display: flex;
     align-items: flex-start;
-    padding: 20px;
+    justify-content: space-between;
+}
+  
+.home-text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.text-box {
+    margin-bottom: 10px;
 }
 
 .App-link {
