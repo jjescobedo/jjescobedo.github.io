@@ -9,9 +9,9 @@
 .graduate-profile-container {
     padding-bottom: 50px;
 }
-
+/*
 .banner {
-    background-image: url('/home_banner.jpg');
+    background-image: url('./home_banner.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -22,7 +22,7 @@
     justify-content: center;
     margin-top: 20px;
 }
-
+*/
 .content-container-1 {
     display: flex;
     align-items: flex-start;

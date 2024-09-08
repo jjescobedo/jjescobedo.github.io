@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './content.css';
+import './page.css';
+import './button.css';
+import './navbar.css';
+import './slo-reflections.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
