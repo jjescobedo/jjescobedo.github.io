@@ -51,7 +51,12 @@ function Home() {
             </div>
             <div className="text-box">
               <p className="body-text-left">
-                I've loved cooking since I was tall enough to reach over the stove. I love going out to eat new food and experimenting with different recipes. Every family member I have on my dad's side has been involved in the restaurant business at some point in their life and I've cooked alongside them many times. I use the skills I learned with my family on the DVCA campus by hosting pop-up taco stand fundraising events for the DVCA Latinos Unidos club.
+                One of my favorite hobbies is cooking. I've loved cooking since I was tall enough to reach over the stove. I love going out to eat new food and experimenting with different recipes. Every family member I have on my dad's side has been involved in the restaurant business at some point in their life and I've cooked alongside them many times. I use the skills I learned with my family on the DVCA campus by hosting pop-up taco stand fundraising events for the DVCA Latinos Unidos club.
+              </p>
+            </div>
+            <div className="text-box">
+              <p className="body-text-left">
+                For fun, I love watching and playing soccer. I use to play for a competetive team when I was little, but now I bounce around some recreational/pickup leagues and practice on my own. I primarily only follow the English Premier League and my favorite team is Tottenham Hotspur.
               </p>
             </div>
           </div>

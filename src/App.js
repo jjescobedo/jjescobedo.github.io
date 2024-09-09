@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import GraduatePortfolio from './GraduateProfile';
 import SLOReflections from './SLOReflections';
@@ -13,7 +13,9 @@ import LearningMindset from './SLOs/LearningMindset';
 import TenthGrade from './GradeYearReflections/TenthGrade';
 import EleventhGrade from './GradeYearReflections/EleventhGrade';
 import TwelfthGrade from './GradeYearReflections/TwelfthGrade';
-import './navbar.css';
+import Footer from './Footer';
+import Navbar from './Navbar'
+import './layout.css';
 
 function App() {
   return (
@@ -24,40 +26,9 @@ function App() {
 }
 
 function AppContent() {
-  const location = useLocation();
-  const sloPages = [
-    '/curricular-literacy',
-    '/critical-thinking',
-    '/written-communication',
-    '/oral-communication',
-    '/collaboration',
-    '/professionalism',
-    '/learning-mindset'
-  ];
-
-  const gradePages = [
-    '/tenth-grade',
-    '/eleventh-grade',
-    '/twelfth-grade'
-  ];
-
   return (
     <div>
-      <nav className="navbar">
-        <img src="/DaVinciH.png" alt="Logo" className="navbar-logo" />
-        <img src="/logo.png" alt="Logo" className="navbar-logo" />
-        <ul>
-          <li className={(location.pathname === '/') ? 'active-link' : ''}>
-            <Link to="/">Home</Link>
-          </li>
-          <li className={(location.pathname === '/graduate-profile') || (sloPages.includes(location.pathname)) ? 'active-link' : ''}>
-            <Link to="/graduate-profile">Graduate Profile</Link>
-          </li>
-          <li className={(location.pathname === '/slo-reflections') || (gradePages.includes(location.pathname)) ? 'active-link' : ''}>
-            <Link to="/slo-reflections">SLO Reflections</Link>
-          </li>
-        </ul>
-      </nav>
+      <Navbar />
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -75,6 +46,7 @@ function AppContent() {
           <Route path="/twelfth-grade" element={<TwelfthGrade />} />
         </Routes>
       </div>
+      <Footer /> 
     </div>
   );
 }

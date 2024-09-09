@@ -4,7 +4,8 @@ import './index.css';
 import './content.css';
 import './page.css';
 import './button.css';
-import './navbar.css';
+import './layout.css';
+import './startup.css'
 import './slo-reflections.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
