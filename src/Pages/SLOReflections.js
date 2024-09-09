@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useSaveLastPage from './useSaveLastPage';
-import './content.css';
-import './page.css';
-import './button.css';
-import './slo-reflections.css'
+import useSaveLastPage from '../Hooks/useSaveLastPage';
+import '../Styles/content.css';
+import '../Styles/page.css';
+import '../Styles/button.css';
+import '../Styles/slo-reflections.css'
 
 function SLOReflections() {
   useSaveLastPage();

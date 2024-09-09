@@ -13,9 +13,9 @@ import LearningMindset from './SLOs/LearningMindset';
 import TenthGrade from './GradeYearReflections/TenthGrade';
 import EleventhGrade from './GradeYearReflections/EleventhGrade';
 import TwelfthGrade from './GradeYearReflections/TwelfthGrade';
-import Footer from './Footer';
-import Navbar from './Navbar'
-import './layout.css';
+import Footer from '../Components/Footer';
+import Navbar from '../Components/Navbar'
+import '../Styles/layout.css';
 
 function App() {
   return (

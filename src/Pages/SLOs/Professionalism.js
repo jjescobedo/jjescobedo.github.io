@@ -1,7 +1,7 @@
 import React from 'react';
-import useSaveLastPage from '../useSaveLastPage';
-import '../content.css';
-import '../page.css';
+import useSaveLastPage from '../../Hooks/useSaveLastPage';
+import '../../Styles/content.css';
+import '../../Styles/page.css';
 
 function Professionalism() {
   useSaveLastPage();

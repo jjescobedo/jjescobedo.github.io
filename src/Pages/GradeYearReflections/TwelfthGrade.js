@@ -1,14 +1,14 @@
 import React from 'react';
-import useSaveLastPage from '../useSaveLastPage';
-import '../content.css';
-import '../page.css';
+import useSaveLastPage from '../../Hooks/useSaveLastPage';
+import '../../Styles/content.css';
+import '../../Styles/page.css';
 
-function EleventhGrade() {
+function TwelfthGrade() {
   useSaveLastPage();
   return (
     <div>
       <div>
-      <h1 className="page-header-left-1">11th Grade Reflections</h1>
+      <h1 className="page-header-left-1">12th Grade Reflections</h1>
       <hr></hr>
       </div>
       <div>
@@ -39,4 +39,4 @@ function EleventhGrade() {
   );
 }
 
-export default EleventhGrade;
+export default TwelfthGrade;

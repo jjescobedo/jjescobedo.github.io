@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import './content.css';
-import './page.css'
-import './startup.css'
+import '../Styles/content.css';
+import '../Styles/page.css'
+import '../Styles/startup.css'
 
 function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
