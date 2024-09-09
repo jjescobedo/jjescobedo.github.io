@@ -73,10 +73,11 @@
     margin-inline-end: 20px;
     line-height: 26px;
     margin-bottom: 32px;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .home-large-image-right {
+    flex: 1;
     padding-right: 40px;
 }
 
@@ -88,11 +89,12 @@
 }
 
 .home-large-image-left {
+    padding-top: 80px;
     padding-left: 40px;
 }
 
 .home-large-image-left img {
-    max-width: 100%;
+    max-width: 520px;
     height: auto;
     margin: 20px 0;
     margin-top: -10px;

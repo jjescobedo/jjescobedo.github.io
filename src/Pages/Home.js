@@ -67,8 +67,8 @@ function Home() {
         </div>
 
         <div className="home-content-container">
-          <div className="home-large-image-left">
-            <img src="./GeneralVisuals/dv-orientation.JPG" alt="DV Orientation"/>
+            <div className="home-large-image-left">
+              <img src="./GeneralVisuals/dv-orientation.JPG" alt="DV Orientation"/>
           </div>
           <div className="home-text-container">
             <h2 className="page-header-right-2">Path to Da Vinci</h2>
@@ -80,6 +80,7 @@ function Home() {
             </p>
           </div>
         </div>
+        
         <div className="home-content-container">
           <div>
             <h2 className="page-header-left-2">Strengths & Accomplishments</h2>
