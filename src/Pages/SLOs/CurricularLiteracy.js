@@ -13,7 +13,7 @@ function CurricularLiteracy() {
       </div>
       <div>
         <div className="slo-content-container">
-          <img src="/congressional-student-leadership-council.jpg" alt="Artifact 1" className="left-slo-image"/>
+          <img src="./Artifacts/congressional-student-leadership-council.jpg" alt="Artifact 1" className="left-slo-image"/>
           <div className="slo-text-container">
             <h3 className="page-header-left-3">Extracurricular, Junior Year</h3>
             <div className="text-box">

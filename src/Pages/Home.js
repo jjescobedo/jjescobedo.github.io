@@ -25,18 +25,6 @@ function Home() {
     }
   }, [location]);
 
-  useEffect(() => {
-    const handleBeforeUnload = () => {
-      localStorage.setItem('lastPage', window.location.href);
-    };
-
-    window.addEventListener('beforeunload', handleBeforeUnload);
-
-    return () => {
-      window.removeEventListener('beforeunload', handleBeforeUnload);
-    };
-  }, []);
-
   return (
     <div>
       {isLoaded ? (
@@ -61,12 +49,12 @@ function Home() {
             </div>
           </div>
           <div className="home-image">
-            <img src="./home-image-1.jpg" alt="James Escobedo & Computer Currry"/>
+            <img src="./GeneralVisuals/home-image-1.jpg" alt="James Escobedo & Computer Currry"/>
           </div>
         </div>
         <div className="home-content-container">
           <div className="home-image">
-            <img src="./dv-orientation.JPG" alt="DV Orientation"/>
+            <img src="./GeneralVisuals/dv-orientation.JPG" alt="DV Orientation"/>
           </div>
           <div className="home-text-container">
             <h2 className="page-header-right-2">Path to Da Vinci</h2>
@@ -85,7 +73,7 @@ function Home() {
       ) : (
         <div className="starting-screen">
           <h1 className="starting-screen-header">James Escobedo's</h1>
-          <img src="./logo.png" alt="James Escobedo DV Logo"/>
+          <img src="./GeneralVisuals/logo.png" alt="James Escobedo DV Logo"/>
           <h1 className="starting-screen-header">Graduate Portfolio</h1>
         </div>
       )}

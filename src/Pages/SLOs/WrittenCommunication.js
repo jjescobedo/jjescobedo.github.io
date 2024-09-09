@@ -13,7 +13,7 @@ function WrittenCommunication() {
       </div>
       <div>
         <div className="slo-content-container">
-        <embed src="/ai4genes-schizophrenia-report.pdf" type="application/pdf" width="600" height="600" className="left-slo-pdf-1"/>
+        <embed src="./Artifacts/ai4genes-schizophrenia-report.pdf" type="application/pdf" width="600" height="600" className="left-slo-pdf-1"/>
           <div className="slo-text-container">
             <h3 className="page-header-left-3">Extracurricular, Junior Year</h3>
             <div className="text-box">

@@ -22,8 +22,8 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <img src="/DaVinciH.png" alt="Logo" className="navbar-logo" />
-      <img src="/logo.png" alt="Logo" className="navbar-logo" />
+      <img src="./GeneralVisuals/DaVinciH.png" alt="Logo" className="navbar-logo" />
+      <img src="./GeneralVisuals/logo.png" alt="Logo" className="navbar-logo" />
       <ul>
         <li className={(location.pathname === '/') ? 'active-link' : ''}>
           <Link to="/">Home</Link>
