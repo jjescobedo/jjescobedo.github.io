@@ -48,12 +48,26 @@ function Home() {
               </p>
             </div>
           </div>
-          <div className="home-image">
-            <img src="./GeneralVisuals/home-image-1.jpg" alt="James Escobedo & Computer Currry"/>
+          <div className="home-images-container">
+            <div className="home-small-images-right">
+              <div className="home-small-image">
+                <img src="./GeneralVisuals/food-1.jpg" alt="Milanesas w/ Fried Plantains, Rice, and Guacamole"/>
+              </div>
+              <div className="home-small-image">
+                <img src="./GeneralVisuals/food-2.jpg" alt="Homemade New York Pizza"/>
+              </div>
+              <div className="home-small-image">
+                <img src="./GeneralVisuals/food-3.JPEG" alt="12 Street Taco Platter, 6 Carne Asada and 6 Al Pastor"/>
+              </div>
+            </div>
+            <div className="home-large-image-right">
+              <img src="./GeneralVisuals/home-image-1.jpg" alt="James Escobedo & Computer Curry"/>
+            </div>
           </div>
         </div>
+
         <div className="home-content-container">
-          <div className="home-image">
+          <div className="home-large-image-left">
             <img src="./GeneralVisuals/dv-orientation.JPG" alt="DV Orientation"/>
           </div>
           <div className="home-text-container">
@@ -66,8 +80,10 @@ function Home() {
             </p>
           </div>
         </div>
-        <div>
-          <h2 className="page-header-left-2">Strengths & Accomplishments</h2>
+        <div className="home-content-container">
+          <div>
+            <h2 className="page-header-left-2">Strengths & Accomplishments</h2>
+          </div>
         </div>
       </>
       ) : (

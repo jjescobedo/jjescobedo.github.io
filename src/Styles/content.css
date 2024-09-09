@@ -62,17 +62,8 @@
     margin-inline-end: 20px;
     line-height: 26px;
     margin-bottom: 32px;
+    margin-right: 10px;
 }
-
-/*
-.body-text-left-half {
-    font-size: 18px;
-    margin-top: -10px;
-    margin-inline-start: 20px;
-    line-height: 26px;
-    margin-bottom: 32px;
-}
-*/
   
 .body-text-right {
     font-size: 18px;
@@ -82,23 +73,34 @@
     margin-inline-end: 20px;
     line-height: 26px;
     margin-bottom: 32px;
+    margin-right: 10px;
 }
-  
-/*
-.body-text-right-half {
-    font-size: 18px;
-    text-align: right;
-    margin-top: -10px;
-    margin-inline-start: 520px;
-    margin-inline-end: 20px;
-    line-height: 26px;
-    margin-bottom: 32px;
+
+.home-large-image-right {
+    padding-right: 40px;
 }
-*/
-  
-.home-image img {
-    max-width: 500px;
+
+.home-large-image-right img {
+    max-width: 100%;
     height: auto;
-    margin: 20px;
-    margin-top: 40px;
+    margin: 20px 0;
+    margin-top: -10px;
+}
+
+.home-large-image-left {
+    padding-left: 40px;
+}
+
+.home-large-image-left img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    margin-top: -10px;
+}
+
+.home-small-image img {
+    max-width: 160px;
+    height: auto;
+    margin: 5px;
+    margin-top: 30px;
 }

@@ -13,7 +13,7 @@ function CriticalThinking() {
       </div>
       <div>
         <div className="slo-content-container">
-          <img src="/classsync-logo.png" alt="Artifact 1" className="left-slo-image"/>
+          <img src="./Artifacts/classsync-logo.png" alt="Artifact 1" className="left-slo-image"/>
           <div className="slo-text-container">
             <h3 className="page-header-left-3">Project Invent, Junior Year</h3>
             <div className="text-box">

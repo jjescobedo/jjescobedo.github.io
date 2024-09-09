@@ -9,20 +9,7 @@
 .graduate-profile-container {
     padding-bottom: 50px;
 }
-/*
-.banner {
-    background-image: url('./home_banner.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 200px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-*/
+
 .slo-content-container{
     display: flex;
     align-items: flex-start;
@@ -40,6 +27,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
   
 .home-text-container {
@@ -47,12 +35,28 @@
     flex-direction: column;
     text-align: left;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .text-box {
     margin-bottom: 10px;
+    margin-right: 20px;
 }
 
 .App-link {
     color: #61dafb;
   }
+
+.home-small-images-right {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.home-small-images-left {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
