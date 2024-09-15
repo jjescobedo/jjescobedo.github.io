@@ -14,12 +14,6 @@ function Navbar() {
     '/learning-mindset'
   ];
 
-  const gradePages = [
-    '/tenth-grade',
-    '/eleventh-grade',
-    '/twelfth-grade'
-  ];
-
   return (
     <nav className="navbar">
       <img src="./GeneralVisuals/DaVinciH.png" alt="Logo" className="navbar-logo" />
@@ -30,9 +24,6 @@ function Navbar() {
         </li>
         <li className={(location.pathname === '/graduate-profile') || (sloPages.includes(location.pathname)) ? 'active-link' : ''}>
           <Link to="/graduate-profile">Graduate Profile</Link>
-        </li>
-        <li className={(location.pathname === '/slo-reflections') || (gradePages.includes(location.pathname)) ? 'active-link' : ''}>
-          <Link to="/slo-reflections">SLO Reflections</Link>
         </li>
       </ul>
     </nav>
