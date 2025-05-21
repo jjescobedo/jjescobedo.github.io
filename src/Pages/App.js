@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
-import GraduatePortfolio from './GraduateProfile';
+import SLOReflections from './SLOReflections';
 import CurricularLiteracy from './SLOs/CurricularLiteracy';
 import CriticalThinking from './SLOs/CriticalThinking';
 import WrittenCommunication from './SLOs/WrittenCommunication';
@@ -28,7 +28,7 @@ function AppContent() {
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/graduate-profile" element={<GraduatePortfolio />} />
+          <Route path="/slo-reflections" element={<SLOReflections />} />
           <Route path="/curricular-literacy" element={<CurricularLiteracy />} />
           <Route path="/critical-thinking" element={<CriticalThinking />} />
           <Route path="/written-communication" element={<WrittenCommunication />} />

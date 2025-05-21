@@ -16,7 +16,7 @@ function CriticalThinking() {
         <div className="slo-content-container">
           <img src="./Artifacts/classsync-logo.png" alt="Artifact 1" className="left-slo-image"/>
           <div className="slo-text-container">
-            <h3 className="page-header-left-3">Project Invent, Junior Year</h3>
+            <h3 className="page-header-left-3">Junior - Senior Year</h3>
             <div className="text-box">
               <h4 className="page-header-left-4">ClassSync</h4>
             </div>

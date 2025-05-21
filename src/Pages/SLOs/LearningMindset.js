@@ -15,7 +15,7 @@ function LearningMindset() {
         <div className="slo-content-container">
           <img src="./Artifacts/lu-logo.png" alt="Artifact 1" className="left-slo-image"/>
           <div className="slo-text-container">
-            <h3 className="page-header-left-3">Latinos Unidos, Sophomore Year</h3>
+            <h3 className="page-header-left-3">Latinos Unidos, Sophomore - Senior Year</h3>
             <div className="text-box">
               <h4 className="page-header-left-4">Running the Club</h4>
             </div>

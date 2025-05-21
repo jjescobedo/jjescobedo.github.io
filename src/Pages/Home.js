@@ -83,7 +83,7 @@ function Home() {
         
         <div className="home-content-container">
           <div>
-            <h2 className="page-header-left-2">Strengths & Accomplishments</h2>
+            <h2 className="page-header-left-2">Future Plans</h2>
           </div>
         </div>
       </>

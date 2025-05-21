@@ -5,7 +5,7 @@ import '../Styles/content.css';
 import '../Styles/page.css';
 import '../Styles/button.css';
 
-function GraduateProfile() {
+function SLOReflections() {
   useSaveLastPage();
   return (
     <div className="graduate-profile-container">
@@ -57,4 +57,4 @@ function GraduateProfile() {
   );
 }
 
-export default GraduateProfile;
+export default SLOReflections;

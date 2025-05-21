@@ -22,8 +22,8 @@ function Navbar() {
         <li className={(location.pathname === '/') ? 'active-link' : ''}>
           <Link to="/">Home</Link>
         </li>
-        <li className={(location.pathname === '/graduate-profile') || (sloPages.includes(location.pathname)) ? 'active-link' : ''}>
-          <Link to="/graduate-profile">Graduate Profile</Link>
+        <li className={(location.pathname === '/slo-reflections') || (sloPages.includes(location.pathname)) ? 'active-link' : ''}>
+          <Link to="/slo-reflections">SLO Reflections</Link>
         </li>
       </ul>
     </nav>
